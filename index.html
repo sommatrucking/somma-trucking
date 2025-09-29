@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Somma Trucking — Reliable Freight & Logistics</title>
+  <meta name="description" content="Somma Trucking provides reliable nationwide freight services: TL, LTL, expedited, and refrigerated transport. Get a fast quote today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    /* brand helpers (tweak to match your colors) */
+    :root { --brand:#0ea5e9; --brand-600:#0284c7; --brand-700:#0369a1; }
+    .brand { color: var(--brand); }
+    .bg-brand { background-color: var(--brand); }
+    .bg-brand-600 { background-color: var(--brand-600); }
+    .bg-brand-700 { background-color: var(--brand-700); }
+  </style>
+  <!-- Open Graph for richer sharing -->
+  <meta property="og:title" content="Somma Trucking — Reliable Freight & Logistics" />
+  <meta property="og:description" content="Reliable TL, LTL, Expedited & Refrigerated transport. Request a quote today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" />
+  <meta name="theme-color" content="#0ea5e9" />
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Top Bar -->
+  <div class="bg-slate-900 text-slate-200 text-sm">
+    <div class="mx-auto max-w-7xl px-4 py-2 flex items-center justify-between">
+      <p>24/7 Dispatch: <a class="underline" href="tel:+1-000-000-0000">(000) 000‑0000</a></p>
+      <p>Email: <a class="underline" href="mailto:dispatch@sommatrucking.com">dispatch@sommatrucking.com</a></p>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-200">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="flex items-center justify-between h-16">
+        <a href="#" class="flex items-center gap-2 font-extrabold text-xl tracking-tight">
+          <span class="inline-block h-8 w-8 rounded-lg bg-brand"></span>
+          <span>Somma <span class="brand">Trucking</span></span>
+        </a>
+        <nav class="hidden md:flex items-center gap-8 text-[15px]">
+          <a href="#services" class="hover:text-brand">Services</a>
+          <a href="#fleet" class="hover:text-brand">Fleet</a>
+          <a href="#coverage" class="hover:text-brand">Coverage</a>
+          <a href="#about" class="hover:text-brand">About</a>
+          <a href="#contact" class="hover:text-brand">Contact</a>
+          <a href="#contact" class="inline-flex items-center rounded-lg bg-brand px-4 py-2 font-medium text-white shadow hover:bg-brand-600">Request a Quote</a>
+        </nav>
+        <button id="menuBtn" class="md:hidden inline-flex items-center justify-center p-2 rounded-md border border-slate-300" aria-label="Open menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>
+        </button>
+      </div>
+      <div id="mobileMenu" class="md:hidden hidden pb-4">
+        <div class="flex flex-col gap-2">
+          <a href="#services" class="px-2 py-2 rounded hover:bg-slate-100">Services</a>
+          <a href="#fleet" class="px-2 py-2 rounded hover:bg-slate-100">Fleet</a>
+          <a href="#coverage" class="px-2 py-2 rounded hover:bg-slate-100">Coverage</a>
+          <a href="#about" class="px-2 py-2 rounded hover:bg-slate-100">About</a>
+          <a href="#contact" class="px-2 py-2 rounded hover:bg-slate-100">Contact</a>
+          <a href="#contact" class="mt-2 inline-flex items-center justify-center rounded-lg bg-brand px-4 py-2 font-medium text-white shadow hover:bg-brand-600">Request a Quote</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="absolute inset-0 -z-10">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1920&auto=format&fit=crop" alt="Semi truck on highway at sunset" class="h-full w-full object-cover" />
+      <div class="absolute inset-0 bg-slate-900/60"></div>
+    </div>
+    <div class="mx-auto max-w-7xl px-4 py-24 sm:py-28 text-white">
+      <div class="max-w-2xl">
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">Reliable Freight. <span class="text-brand">On Time.</span> Every Time.</h1>
+        <p class="mt-4 text-lg text-slate-100">Somma Trucking delivers TL, LTL, expedited, and refrigerated freight across the U.S. with safety‑first, customer‑focused service.</p>
+        <div class="mt-8 flex gap-3">
+          <a href="#contact" class="inline-flex items-center rounded-lg bg-brand px-5 py-3 font-semibold text-white shadow hover:bg-brand-600">Request a Quote</a>
+          <a href="#services" class="inline-flex items-center rounded-lg bg-white/10 px-5 py-3 font-semibold text-white ring-1 ring-inset ring-white/30 hover:bg-white/20">Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust badges / stats -->
+  <section class="bg-white border-y border-slate-200">
+    <div class="mx-auto max-w-7xl px-4 py-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div><p class="text-3xl font-extrabold brand">99.2%</p><p class="text-sm text-slate-600">On‑time delivery</p></div>
+      <div><p class="text-3xl font-extrabold brand">24/7</p><p class="text-sm text-slate-600">Live dispatch</p></div>
+      <div><p class="text-3xl font-extrabold brand">48‑State</p><p class="text-sm text-slate-600">Coverage</p></div>
+      <div><p class="text-3xl font-extrabold brand">Safety‑First</p><p class="text-sm text-slate-600">FMCSA compliant</p></div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight">Services</h2>
+        <p class="mt-2 text-slate-600">Flexible capacity for your lanes and timelines.</p>
+      </div>
+      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <!-- TL -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="h-10 w-10 rounded-lg bg-brand/10 flex items-center justify-center mb-4">
+            <!-- truck icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6 brand"><path fill="currentColor" d="M3 7a2 2 0 0 1 2-2h8v8H3zM15 7h3l3 3v3h-6zM5 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4m12 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/></svg>
+          </div>
+          <h3 class="font-semibold">Truckload (TL)</h3>
+          <p class="mt-2 text-sm text-slate-600">Dedicated capacity for full shipments with predictable transit times.</p>
+        </div>
+        <!-- LTL -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="h-10 w-10 rounded-lg bg-brand/10 flex items-center justify-center mb-4">
+            <!-- layers icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 brand" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 1 7l11 5 11-5zM1 12l11 5 11-5"/></svg>
+          </div>
+          <h3 class="font-semibold">Less‑than‑Truckload (LTL)</h3>
+          <p class="mt-2 text-sm text-slate-600">Cost‑effective for partial loads with careful consolidation and handling.</p>
+        </div>
+        <!-- Expedited -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="h-10 w-10 rounded-lg bg-brand/10 flex items-center justify-center mb-4">
+            <!-- lightning icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 brand" viewBox="0 0 24 24"><path fill="currentColor" d="M13 2 3 14h7v8l11-14h-8z"/></svg>
+          </div>
+          <h3 class="font-semibold">Expedited</h3>
+          <p class="mt-2 text-sm text-slate-600">Time‑critical shipments with team drivers and priority dispatch.</p>
+        </div>
+        <!-- Refrigerated -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="h-10 w-10 rounded-lg bg-brand/10 flex items-center justify-center mb-4">
+            <!-- snowflake icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 brand" viewBox="0 0 24 24"><path fill="currentColor" d="M11 1h2v22h-2zM4.93 4.93l1.41-1.41L19.48 16.66l-1.41 1.41zM18.66 4.93l1.41 1.41L7.34 19.07l-1.41-1.41z"/></svg>
+          </div>
+          <h3 class="font-semibold">Refrigerated</h3>
+          <p class="mt-2 text-sm text-slate-600">Temperature‑controlled transport with continuous monitoring.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fleet -->
+  <section id="fleet" class="py-16 bg-white">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight">Fleet</h2>
+        <p class="mt-2 text-slate-600">Modern, well‑maintained equipment for safety and efficiency.</p>
+      </div>
+      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-semibold">53′ Dry Vans</h3>
+          <p class="mt-2 text-sm text-slate-600">Air‑ride, swing doors, E‑track options. Ideal for general freight.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-semibold">Reefers</h3>
+          <p class="mt-2 text-sm text-slate-600">Validated temperature ranges for food & pharma.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-semibold">Power‑Only</h3>
+          <p class="mt-2 text-sm text-slate-600">Flexible power for drop‑and‑hook operations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coverage -->
+  <section id="coverage" class="py-16">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight">Coverage</h2>
+        <p class="mt-2 text-slate-600">48‑state authority with a focus on major freight corridors.</p>
+      </div>
+      <div class="mt-6 grid gap-6 lg:grid-cols-2">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-medium">Primary Lanes</h3>
+          <ul class="mt-3 text-sm text-slate-700 leading-7 list-disc pl-5">
+            <li>Midwest ⇄ West Coast</li>
+            <li>Texas Triangle & Southwest</li>
+            <li>Midwest ⇄ Southeast</li>
+            <li>Regional round‑trips near your shipper/DCs</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-medium">Compliance & Insurance</h3>
+          <ul class="mt-3 text-sm text-slate-700 leading-7 list-disc pl-5">
+            <li>FMCSA Authority • ELD • IFTA</li>
+            <li>$1M Auto Liability • $100k Cargo</li>
+            <li>Safety‑first culture & driver training</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-white">
+    <div class="mx-auto max-w-7xl px-4 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-bold tracking-tight">About Somma Trucking</h2>
+        <p class="mt-3 text-slate-700">We’re a family‑run carrier committed to dependable service, clear communication, and building long‑term shipper relationships. Our dispatch monitors every load from pickup to POD, so you’re never guessing where your freight is.</p>
+        <dl class="mt-6 grid grid-cols-2 gap-4 text-sm">
+          <div class="rounded-xl border border-slate-200 p-4">
+            <dt class="font-semibold">USDOT</dt>
+            <dd class="text-slate-600">0000000</dd>
+          </div>
+          <div class="rounded-xl border border-slate-200 p-4">
+            <dt class="font-semibold">MC</dt>
+            <dd class="text-slate-600">000000</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-200">
+        <img src="https://images.unsplash.com/photo-1611401286794-6523643a1363?q=80&w=1600&auto=format&fit=crop" alt="Somma Trucking fleet" class="w-full h-80 object-cover"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Quote -->
+  <section id="contact" class="py-16">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight">Request a Quote</h2>
+        <p class="mt-2 text-slate-600">Tell us about your shipment and we’ll get right back to you.</p>
+      </div>
+      <div class="mt-8 grid lg:grid-cols-3 gap-8">
+        <form class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm lg:col-span-2" name="quote" method="POST" data-netlify="true">
+          <!-- Netlify Forms hidden input -->
+          <input type="hidden" name="form-name" value="quote" />
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium">Name</label>
+              <input required name="name" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand" type="text" placeholder="Jane Doe" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Company</label>
+              <input name="company" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand" type="text" placeholder="Your Company" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Email</label>
+              <input required name="email" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand" type="email" placeholder="you@example.com" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Phone</label>
+              <input name="phone" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand" type="tel" placeholder="(000) 000‑0000" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Pickup City / State</label>
+              <input name="pickup" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand" type="text" placeholder="Denver, CO" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Dropoff City / State</label>
+              <input name="dropoff" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand" type="text" placeholder="Phoenix, AZ" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Equipment</label>
+              <select name="equipment" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand">
+                <option>53′ Dry Van</option>
+                <option>Reefer</option>
+                <option>Power‑Only</option>
+                <option>Flatbed</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Weight (lbs)</label>
+              <input name="weight" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand" type="number" inputmode="numeric" placeholder="42,000" />
+            </div>
+            <div class="sm:col-span-2">
+              <label class="block text-sm font-medium">Details</label>
+              <textarea name="details" rows="4" class="mt-1 w-full rounded-lg border-slate-300 focus:border-brand focus:ring-brand" placeholder="Pickup dates, reference #, special handling, etc."></textarea>
+            </div>
+          </div>
+          <button class="mt-6 inline-flex items-center rounded-lg bg-brand px-5 py-3 font-semibold text-white shadow hover:bg-brand-600" type="submit">Send Request</button>
+          <p class="mt-3 text-xs text-slate-500">Prefer email? <a href="mailto:dispatch@sommatrucking.com" class="underline">dispatch@sommatrucking.com</a></p>
+        </form>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-semibold">Contact</h3>
+          <p class="mt-2 text-sm text-slate-700">Dispatch / Sales</p>
+          <p class="text-sm text-slate-700"><a class="underline" href="tel:+1-000-000-0000">(000) 000‑0000</a></p>
+          <p class="text-sm text-slate-700"><a class="underline" href="mailto:dispatch@sommatrucking.com">dispatch@sommatrucking.com</a></p>
+          <hr class="my-4" />
+          <p class="text-sm text-slate-700">HQ Address</p>
+          <p class="text-sm text-slate-600">123 Logistics Way<br/>Denver, CO 80202</p>
+          <div class="mt-6 rounded-xl bg-slate-50 p-4 text-xs text-slate-600">
+            <p class="font-semibold">Quick Tip</p>
+            <p class="mt-1">To make this form send to your inbox without a backend, use <a class="underline" href="https://formspree.io/" target="_blank" rel="noopener">Formspree</a> or host on <a class="underline" href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a> and enable Netlify Forms.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-300">
+    <div class="mx-auto max-w-7xl px-4 py-10 grid gap-8 md:grid-cols-3">
+      <div>
+        <div class="flex items-center gap-2 font-extrabold text-lg"><span class="inline-block h-7 w-7 rounded-lg bg-brand"></span>Somma <span class="brand">Trucking</span></div>
+        <p class="mt-2 text-sm text-slate-400">Reliable freight solutions built on safety, communication, and accountability.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold">Company</h4>
+        <ul class="mt-2 text-sm space-y-1">
+          <li><a class="hover:underline" href="#about">About</a></li>
+          <li><a class="hover:underline" href="#services">Services</a></li>
+          <li><a class="hover:underline" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">Credentials</h4>
+        <ul class="mt-2 text-sm space-y-1">
+          <li>USDOT: 0000000</li>
+          <li>MC: 000000</li>
+          <li>Insurance Certs on request</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="mx-auto max-w-7xl px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <p class="text-xs">© <span id="year"></span> Somma Trucking. All rights reserved.</p>
+        <p class="text-xs">Made with ❤️ by the Somma team.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile menu + year script -->
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn?.addEventListener('click', () => menu.classList.toggle('hidden'));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Structured Data (update fields!) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Somma Trucking",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop",
+    "telephone": "+1-000-000-0000",
+    "email": "dispatch@sommatrucking.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Logistics Way",
+      "addressLocality": "Denver",
+      "addressRegion": "CO",
+      "postalCode": "80202",
+      "addressCountry": "US"
+    },
+    "url": "https://www.sommatrucking.com",
+    "areaServed": "US",
+    "sameAs": []
+  }
+  </script>
+</body>
+</html>
