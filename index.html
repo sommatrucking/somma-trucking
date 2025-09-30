@@ -13,7 +13,7 @@
     html { scroll-behavior: smooth; }
     body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
     /* brand helpers (tweak to match your colors) */
-    :root { --brand:#0ea5e9; --brand-600:#0284c7; --brand-700:#0369a1; }
+    :root { --brand:#d62828; --brand-600:#b91c1c; --brand-700:#991b1b; --accent:#fbbf24; }
     .brand { color: var(--brand); }
     .bg-brand { background-color: var(--brand); }
     .bg-brand-600 { background-color: var(--brand-600); }
@@ -291,6 +291,56 @@
             <p class="font-semibold">Quick Tip</p>
             <p class="mt-1">To make this form send to your inbox without a backend, use <a class="underline" href="https://formspree.io/" target="_blank" rel="noopener">Formspree</a> or host on <a class="underline" href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a> and enable Netlify Forms.</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-16 bg-white border-y border-slate-200">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="max-w-3xl">
+        <h2 class="text-3xl font-bold tracking-tight">Recent Loads & Photo Gallery</h2>
+        <p class="mt-2 text-slate-600">Add real photos of your trucks, trailers, and deliveries. Each image lets shippers see the quality and care Somma Trucking provides.</p>
+      </div>
+      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Replace the src URLs with your own images -->
+        <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50">
+          <img src="https://images.unsplash.com/photo-1542326237-94b1c5a538d6?q=80&w=1600&auto=format&fit=crop" alt="Trailer at shipper dock" class="h-56 w-full object-cover"/>
+          <figcaption class="p-4 text-sm text-slate-700">Dry van spotted on-time at the shipper. Clean equipment and professional drivers make dock work smooth.</figcaption>
+        </figure>
+        <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50">
+          <img src="https://images.unsplash.com/photo-1529078155058-5d716f45d604?q=80&w=1600&auto=format&fit=crop" alt="Reefer load in transit" class="h-56 w-full object-cover"/>
+          <figcaption class="p-4 text-sm text-slate-700">Temperature‑controlled reefer with continuous monitoring to protect food & pharma products.</figcaption>
+        </figure>
+        <figure class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-50">
+          <img src="https://images.unsplash.com/photo-1533139502658-0198f920d8ae?q=80&w=1600&auto=format&fit=crop" alt="Team drivers for expedited" class="h-56 w-full object-cover"/>
+          <figcaption class="p-4 text-sm text-slate-700">Expedited team drivers for urgent lanes. Real‑time check‑ins from pickup to POD.</figcaption>
+        </figure>
+      </div>
+      <p class="mt-4 text-xs text-slate-500">Tip: swap the image URLs above with your own photos or uploads from Google Drive/Dropbox/Imgur.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials / Proof -->
+  <section id="testimonials" class="py-16">
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="max-w-3xl">
+        <h2 class="text-3xl font-bold tracking-tight">Why Shippers Choose Somma</h2>
+        <p class="mt-2 text-slate-600">Straight from our partners—reliability, communication, and care for the freight.</p>
+      </div>
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="text-sm text-slate-700">“Consistent on‑time performance on our Dallas ⇄ Phoenix lane. The dispatch team gives proactive updates before we need them.”</div>
+          <div class="mt-3 text-xs text-slate-500">— Regional DC Manager, Retail</div>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="text-sm text-slate-700">“Clean reefers, validated temps, and accurate PODs. They’re now our first call for produce season.”</div>
+          <div class="mt-3 text-xs text-slate-500">— Procurement Lead, Food Distributor</div>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="text-sm text-slate-700">“They handled a last‑minute hot load with team drivers and saved our launch date. Professional from quote to delivery.”</div>
+          <div class="mt-3 text-xs text-slate-500">— Operations Director, Manufacturing</div>
         </div>
       </div>
     </div>
